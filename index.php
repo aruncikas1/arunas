@@ -44,7 +44,7 @@ if (isset($_POST)) {
 		
 	</form>
 <?php else: ?>
-	<h2> Sveiki prisijunge, <?= $vardas; ?> Jus esate : <?= $amzius ?> metu</h2>
+	<h2> Sveiki prisijunge, <?= $vardas; ?> Jums yra : <?= $amzius ?></h2>
 	Tu esi gimes :<?php echo "$gimimometai"; ?> 
 
 
