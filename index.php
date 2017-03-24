@@ -8,6 +8,7 @@
 
 <?php
 
+
 /* patikrina ar musu kintamasis nustatytas */
 
 if (isset($_POST)) {
