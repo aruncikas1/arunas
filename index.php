@@ -32,6 +32,7 @@ if (isset($_POST)) {
 		<input type="text" name="vardas" value="<?=$vardas; ?>">
 		<input type="text" name="password" value="<?=$password; ?>">
 	    <input type="text" name="age" value="<?=$amzius; ?>">
+	   
 <!--  <div class="myNumber">
 	Skaiciu suma <?= $c; ?>
 
@@ -43,7 +44,7 @@ if (isset($_POST)) {
 		
 	</form>
 <?php else: ?>
-	<h2> Sveiki prisijunge, <?= $vardas; ?> Jusu amzius: <?= $amzius ?></h2>
+	<h2> Sveiki prisijunge, <?= $vardas; ?> Jus esate : <?= $amzius ?> metu</h2>
 	Tu esi gimes :<?php echo "$gimimometai"; ?> 
 
 
